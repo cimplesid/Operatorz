@@ -4,6 +4,10 @@ A new operator concept by me this operator is not an independent operator but re
 
 ## Working
 
+<a style="backgroud-color:green" href="http://operatorz.surge.sh/">
+Try it here</a>
+
+
 ```
 //if a=b 
 a z b = a*b 
