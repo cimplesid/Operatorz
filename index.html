@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operator z</title>
+
+</head>
+<script >
+	function z() {
+  var x = document.getElementsByName("first")[0].value;
+  var y = document.getElementsByName("second")[0].value;
+  var z ;
+  if(x==y)
+  {
+  	 z= x*y;
+  }else{
+  	 z = parseInt(x) + parseInt(y);
+  }
+    	  document.getElementById("output").innerHTML = "Output:" + z;
+        document.getElementById("ribbon").style.display ="block";    
+
+}
+</script>
+<link rel="stylesheet" type="text/css" href="app.css">
+
+<body >
+	
+	<div  class="card" style="max-width: 20rem; margin-left: 40%; margin-top:15%    ;    " 	>
+	<center><h1 class="card-header">The operator z</h1> </center> <br><br>
+  <center>  Calculate a z b :</center>  
+
+  <br>
+
+	<center>
+	 <input type="number" placeholder="First number" class="form-group " name="first"  >
+   
+
+    
+    <input type="number" placeholder="Second number" class="form-group " name="second" >
+    <br> <br>
+    <input type="button" value="calculate" class="btn btn-primary btn-lg" onclick="z()">	
+
+    <br> <br>
+   
+     <div class="alert  alert-primary" style="display:none;" id="ribbon">
+  <strong id="output" style="font-size: 25px; "> </strong> 
+</div>
+
+	</center>
+</div>
+
+ <div class=" footer" style="position: absolute; bottom: 0; ">  
+  Idea and concept by <a href="https://github.com/cimplesid">Sid</a>
+
+ </div>
+
+
+
+</body>
+</html>
